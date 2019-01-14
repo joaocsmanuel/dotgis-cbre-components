@@ -1,0 +1,20 @@
+.table{
+  color: #4a4a4a;
+  font-family: HelveticaNeue;
+  font-size: 14px;
+  text-align: center;
+}
+
+.thead {
+  background-color:  rgba(0, 108, 75, 0.28);
+}
+
+.thead th {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.trow td:first-child {
+  border: black;
+  background-color: rgba(0, 108, 75, 0.52);
+}
