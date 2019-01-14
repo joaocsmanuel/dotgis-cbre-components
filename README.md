@@ -1,1 +1,1 @@
-Everything on the index.html that is inside of the following comments: <!-- TO ADD -->, you add it to your existing project, the rest already exists.
+Everything on the index.html that is inside of the following comments: 'TO ADD', you add it to your existing project, the rest already exists.
