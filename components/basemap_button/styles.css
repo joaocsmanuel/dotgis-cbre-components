@@ -1,0 +1,11 @@
+.toggle-map {
+  border: 1px #006c4b;
+  box-shadow: 2px 2px 5px 0 #b8e986;
+  height: 50px;
+  width: 50px;
+}
+
+.toggle-map img {
+  height: 50px;
+  width: 50px;
+}
