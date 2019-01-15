@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="../../libs/jquery-3.3.1.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+  <!-- Include CSS elements -->
+  <!-- Include icons -->
+  <link rel="stylesheet" href="https://libs.cartocdn.com/airship-icons/v1.0.3/icons.css">
+  <!-- Include airship components -->
+  <script src="https://libs.cartocdn.com/airship-components/v1.0.3/airship.js"></script>
+
+  <title>Legends</title>
+</head>
+
+<body>
+  <main>
+    <!-- TO ADD -->
+    <div class="as-map-panels" data-name="Legends" data-tab-order="1">
+      <div class="as-panel as-panel--top as-panel--left">
+        <div class="as-panel__element container-element">
+          <button id="button-pincel" type="text" class="button-pincel">
+            <img class="button-pincel__img" src="../../img/pincel.png" />
+          </button>
+          <div id="menu-buttons-legends" class="menu-container">
+            <button type="text" class="button-legends">
+              Rating
+            </button>
+            <button type="text" class="button-legends">
+              Availability
+            </button>
+            <button type="text" class="button-legends">
+              Rent/Sell
+            </button>
+            <button type="text" class="button-legends">
+              Situation
+            </button>
+            <button type="text" class="button-legends">
+              Ask. Rent
+            </button>
+          </div>
+        </div>
+
+        <div class="as-panel__element">
+          <div id="panel-rating" class="as-panel__element panel-element">
+            <p class="as-subheader panel-title">
+              <b>Rating</b>
+              <button>
+                <i class="as-icon-close"></i>
+              </button>
+            </p>
+            <div class="panel-ramp"></div>
+            <div class="panel-ramp"></div>
+          </div>
+          <div id="panel-availability" class="as-panel__element panel-element">
+            <p class="as-subheader panel-title">
+              <b>Availability</b>
+              <button>
+                <i class="as-icon-close"></i>
+              </button>
+            </p>
+            <div class="panel-ramp"></div>
+            <div class="panel-ramp"></div>
+          </div>
+          <div id="panel-rent-sell" class="as-panel__element panel-element">
+            <p class="as-subheader panel-title">
+              <b>Rent/Sell</b>
+              <button>
+                <i class="as-icon-close"></i>
+              </button>
+            </p>
+            <div class="panel-ramp"></div>
+            <div class="panel-ramp"></div>
+          </div>
+          <div id="panel-situation" class="as-panel__element panel-element">
+            <p class="as-subheader panel-title">
+              <b>Situation</b>
+              <button>
+                <i class="as-icon-close"></i>
+              </button>
+            </p>
+            <div class="panel-subelement">
+              <div class="panel-ramp__large"></div>
+              <div class="panel-ramp__large"></div>
+            </div>
+          </div>
+          <div id="panel-ask-rent" class="as-panel__element panel-element">
+            <p class="as-subheader panel-title">
+              <b>Asking Rent</b>
+              <button>
+                <i class="as-icon-close"></i>
+              </button>
+            </p>
+            <div class="panel-ramp"></div>
+            <div class="panel-ramp"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TO ADD -->
+
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script type="text/javascript" src="{{ url_for('static', filename='lib/Cesium/Cesium.js') }}"></script> -->
+    <!-- <link rel="stylesheet" href="{{ url_for('static',filename='lib/Cesium/Widgets/widgets.css') }}"> -->
+    </div>
+  </main>
+</body>
+
+</html>

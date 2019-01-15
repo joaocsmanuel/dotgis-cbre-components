@@ -1,0 +1,92 @@
+{
+  "rating": [
+    {
+      "color": "darkgreen",
+      "text": "A"
+    },
+    {
+      "color": "#73c783",
+      "text": "B"
+    },
+    {
+      "color": "#abf0b6",
+      "text": "B+"
+    },
+    {
+      "color": "#f5fb6b",
+      "text": "C"
+    }
+  ],
+  "availability": [
+    {
+      "color": "darkgreen",
+      "text": "Available"
+    },
+    {
+      "color": "#d0021b",
+      "text": "Non available"
+    }
+  ],
+  "rent-sell": [
+    {
+      "color": "darkgreen",
+      "text": "Rent"
+    },
+    {
+      "color": "#abf0b6",
+      "text": "Sell"
+    },
+    {
+      "color": "#f5fb6b",
+      "text": "Rent/Sell"
+    }
+  ],
+  "situation": [
+    {
+      "color": "darkgreen",
+      "text": "Occupied"
+    },
+    {
+      "color": "#73c783",
+      "text": "Reserved"
+    },
+    {
+      "color": "#abf0b6",
+      "text": "Stand by"
+    },
+    {
+      "color": "rgb(196, 255, 205)",
+      "text": "Under construction"
+    },
+    {
+      "color": "#f5fb6b",
+      "text": "Vacant"
+    },
+    {
+      "color": "rgb(251, 255, 159)",
+      "text": "Protected"
+    },
+    {
+      "color": "rgb(251, 254, 177)",
+      "text": "Not informed"
+    }
+  ],
+  "asking-rent": [
+    {
+      "color": "#a51600",
+      "text": ""
+    },
+    {
+      "color": "#fbd0d5 41%",
+      "text": ""
+    },
+    {
+      "color": "#abf0b6 64%",
+      "text": ""
+    },
+    {
+      "color": "darkgreen",
+      "text": ""
+    }
+  ]
+}
