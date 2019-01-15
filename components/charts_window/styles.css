@@ -1,0 +1,56 @@
+.main-container {
+  height: 477px;
+  width: 402px;
+}
+
+.head-container {
+  background-color: rgba(239, 239, 239, 0.8);
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.body-container {
+  height: 100%;
+  overflow: auto;
+}
+
+.button-plus {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 2px 2px 4px 0 #ced3cf;
+  cursor: pointer;
+}
+
+.dropdown {
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px 0 rgba(239, 239, 239, 0.5);
+  background-color: #ffffff;
+  width: 151px;
+}
+
+.btn {
+  width: 100%;
+}
+
+.dropdown-toggle {
+  text-align: left;
+}
+
+.dropdown-toggle::after {
+  float: right; 
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.container-rectangle {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  box-shadow: 2px 2px 4px 0 rgba(225, 224, 224, 0.55), 0 1px 2px 0 rgba(225, 224, 224, 0.7);
+  float: left;
+  height: 260px;
+  margin: 6px;
+  width: 180px;
+}
