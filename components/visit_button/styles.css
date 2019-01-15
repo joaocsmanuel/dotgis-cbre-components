@@ -1,0 +1,13 @@
+.button-visit {
+  background: none;
+  border: none;
+  color: #555;
+  cursor: pointer;
+  font-family: HelveticaNeue;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.button-visit:hover {
+  text-decoration: none;
+}
