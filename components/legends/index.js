@@ -13,7 +13,7 @@ buttonPincel.addEventListener('click', (e) => {
   }
 });
 
-for (var i = 0, len = arrayId.length; i < len; i++) {
+for (let i = 0, len = arrayId.length; i < len; i++) {
   buttonLegendEvent(i, arrayId[i])
 }
 
@@ -44,7 +44,7 @@ function createHtmlRampColor(dataLegend, htmlColorClass, htmlTextClass, htmlId, 
   const htmlRampClasses = document.getElementById(htmlId).getElementsByClassName(htmlRampClass);
   const htmlButtonClose = document.getElementById(htmlId).getElementsByTagName('button');
 
-  for (var i = 0, len = dataLegend.length; i < len; i++) {
+  for (let i = 0, len = dataLegend.length; i < len; i++) {
     const rampColor = document.createElement('div');
     rampColor.className = htmlColorClass;
     rampColor.style.backgroundColor = dataLegend[i].color;
@@ -52,7 +52,7 @@ function createHtmlRampColor(dataLegend, htmlColorClass, htmlTextClass, htmlId, 
     htmlRampClasses[0].appendChild(rampColor);
   }
 
-  for (var i = 0, len = dataLegend.length; i < len; i++) {
+  for (let i = 0, len = dataLegend.length; i < len; i++) {
     const rampText = document.createElement('div');
     rampText.className = htmlTextClass;
     rampText.innerHTML = dataLegend[i].text;
@@ -77,7 +77,7 @@ function createHtmlRampGradient(dataLegend, htmlColorClass, htmlId, htmlRampClas
 
   htmlRampClasses[1].style.justifyContent = 'space-between';
   htmlRampClasses[1].style.fontSize = '10px';
-  for (var i = 0, len = arrayText.length; i < len; i++) {
+  for (let i = 0, len = arrayText.length; i < len; i++) {
     const rampText = document.createElement('div');
     rampText.innerHTML = arrayText[i];
 

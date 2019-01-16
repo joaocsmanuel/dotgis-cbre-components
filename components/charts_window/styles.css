@@ -52,5 +52,29 @@
   float: left;
   height: 260px;
   margin: 6px;
+  position: relative;
   width: 180px;
+}
+
+.button-chart {
+  box-shadow: 2px 2px 4px 0 #ced3cf;
+  border-radius: 25px;
+  cursor: pointer;
+  height: 30px;
+  margin: 5px;
+  width: 30px;
+}
+
+.button-chart__editar {
+  display: none;
+  position: absolute; 
+  right: 10%;
+  top: 10%;
+}
+
+.menu-chart {
+  display: none;
+  position: absolute;
+  right: 35%;
+  top: 5%;
 }
