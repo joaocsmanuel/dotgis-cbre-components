@@ -8,6 +8,14 @@
   text-decoration: none;
 }
 
+.button-visit > span {
+  margin-right: 5px
+}
+
+.button-visit > img {
+  height: 25px
+}
+
 .button-visit:hover {
   text-decoration: none;
 }
