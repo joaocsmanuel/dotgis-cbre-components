@@ -1,4 +1,3 @@
-// const containerRectangle = document.getElementsByClassName('container-rectangle');
 const buttonCharts = document.getElementsByClassName('button-chart button-chart__editar');
 
 $('.container-rectangle')
