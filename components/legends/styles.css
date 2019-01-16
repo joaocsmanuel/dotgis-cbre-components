@@ -10,6 +10,7 @@
 
 .button-pincel__img {
   border-radius: 25px;
+  cursor: pointer;
   height: 50px;
   width: 50px;
 }

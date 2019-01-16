@@ -1,9 +1,8 @@
-const buttonPincel = document.getElementById('button-pincel');
+const imgPincel = document.getElementById('button-pincel');
 const buttonLegendsMenu = document.getElementById('menu-buttons-legends');
 const arrayId = ['panel-rating', 'panel-availability', 'panel-rent-sell',  'panel-situation', 'panel-ask-rent'];
 
-buttonPincel.addEventListener('click', (e) => {
-  const imgPincel = e.target.children[0];
+imgPincel.addEventListener('click', (e) => {
   if (buttonLegendsMenu.style.display === 'block') {
     imgPincel.src = imgPincel.src.replace('pincel-active.png', 'pincel.png');
     buttonLegendsMenu.style.display = 'none';
