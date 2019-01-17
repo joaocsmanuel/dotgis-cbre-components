@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "x": "1.01 Prime",
+            "y": 68
+        },
+        {
+            "x": "1.03 Resto Castellana",
+            "y": 78
+        },
+        {
+            "x": "1.07 ACN Norte",
+            "y": 200
+        },
+        {
+            "x": "1.05 Chamberí",
+            "y": 162
+        },
+        {
+            "x": "1.02 Azca",
+            "y": 25
+        },
+        {
+            "x": "1.06 Prado-Recoletos-Los Jerónimos",
+            "y": 79
+        },
+        {
+            "x": "1.04 Barrio Salamanca",
+            "y": 337
+        }
+    ]
+}
