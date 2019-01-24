@@ -2,12 +2,10 @@ const buttonCharts = document.getElementsByClassName('button-chart button-chart_
 
 $('.container-rectangle')
   .mouseover(function () {
-    buttonEditar = $(this).find($('img')[0]);
-    $(this).find($('img')[0]).show();
+    $(this).find($('.container-menu')).show();
   })
   .mouseout(function () {
-    $(this).find($('img')[0]).hide();
-    $(this).find($('.menu-chart')[0]).hide();
+    $(this).find($('.container-menu')).hide();
   });
 
 buttonCharts[0].addEventListener('click', function (e) {
